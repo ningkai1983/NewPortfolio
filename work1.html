@@ -1,0 +1,71 @@
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$('.index_slides').slides({
+			generatePagination: false,
+			preload: true,
+			preloadImage: 'img/loading.gif',
+			effect: 'slide, fade',
+			crossfade: true,
+			slideSpeed: 350,
+			fadeSpeed: 550,
+			play: 6000,
+			paginationClass: 'custom-pagination'
+		});
+	});
+
+	$('.close_window').click(function(){
+		$('#content_container').hide();
+		$(".latest-work li.active").children().removeClass("active");
+		$(".latest-work li.active").removeClass("active");
+	});
+	</script>
+	
+	
+	<section class="grid col-three-quarters">
+		<div class="index_slides">
+			<div class="slides_container">
+				<img class="work1" src="img/google1.png" alt="slide 1"/>
+				<img class="work1" src="img/google2.png" alt="slide 2"/>
+				<img class="work1" src="img/google3.png" alt="slide 3"/>
+				<img class="work1" src="img/google4.png" alt="slide 4"/>
+				<img class="work1" src="img/google5.png" alt="slide 5"/>
+				<img class="work1" src="img/google6.png" alt="slide 6"/>
+			</div>
+			<div class=" pagination_container">
+
+				<a href="#" class="next"><img src="img/btnNext.png" alt="Arrow Next"></a>
+				<ul class="custom-pagination">
+					<li><a href="#0"></a></li>
+					<li><a href="#1"></a></li>
+					<li><a href="#2"></a></li>
+					<li><a href="#3"></a></li>
+					<li><a href="#4"></a></li>
+					<li><a href="#5"></a></li>
+				</ul>
+				<a href="#" class="prev"><img src="img/btnPrev.png" alt="Arrow Prev"></a>
+			</div>
+		</div>
+	</section>
+	
+	
+	<aside class="grid col-one-quarter offset-by-five column thumbnail">
+		<div class="dis_content" >
+			
+			<div class="close_btn" >
+				<a href="#"> <img class="close_window" src="img/close_btn.png"  /></a>
+			</div>
+			<p class="projectTitle">GOOGLE ENGAGE
+
+			</p>
+			<p class="projectCat">ROLE:
+			</p>
+			<p class="pList"> User Interface Design
+			</p>
+			<p class="pList"> User Experience Design
+			</p>
+			
+			<p class="projectDetail">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+			</p>
+		</div>
+		
+	</aside>                      

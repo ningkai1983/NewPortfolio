@@ -1,0 +1,73 @@
+	<script src="js/jquery-1.7.1.min.js" type="text/javascript"></script>
+	<script src="js/slides.min.jquery.js" type="text/javascript"></script>
+	
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$('.index_slides').slides({
+			generatePagination: false,
+			preload: true,
+			preloadImage: 'img/loading.gif',
+			effect: 'slide, fade',
+			crossfade: true,
+			slideSpeed: 350,
+			fadeSpeed: 550,
+			play: 6000,
+			paginationClass: 'custom-pagination'
+		});
+	});
+	</script>
+	<div class="slide_wrap">
+		<div class="close_btn" >
+			<a href="#"><img class="close_window" src="img/close_btn.png"  /></a>
+		</div>
+		
+		<section class="grid col-three-quarters">
+			<div class="index_slides">
+				<div class="slides_container">
+					<img class="work1" src="img/pega1.png" alt="slide 1"/>
+					<img class="work1" src="img/pega2.png" alt="slide 2"/>
+					<img class="work1" src="img/pega3.png" alt="slide 3"/>
+					<img class="work1" src="img/pega4.png" alt="slide 4"/>
+					
+					
+				</div>
+				<div class=" pagination_container">
+
+					<a href="#" class="next"><img src="img/btnNext.png" alt="Arrow Next"></a>
+					<ul class="custom-pagination">
+						<li><a href="#0"></a></li>
+						<li><a href="#1"></a></li>
+						<li><a href="#2"></a></li>
+						<li><a href="#3"></a></li>
+						
+						
+					</ul>
+					<a href="#" class="prev"><img src="img/btnPrev.png" alt="Arrow Prev"></a>
+				</div>
+			</div>
+		</section>
+		
+		
+		<aside class="grid col-one-quarter">
+			<div class="dis_content" >
+
+
+				<p class="projectTitle">PEGA.COM
+
+				</p>
+				<p class="projectCat">ROLE:
+				</p>
+				<p class="pList"> User Interface Design
+				</p>
+				<p class="pList"> User Experience Design
+				</p>
+				
+				<p class="projectDetail">Pega is the leading multinational software company that helps organizations optimize the customer experience and automate operations. Our involvement in rebranding their website has  solved the problem with nest contents. The new and cleaner interface has truely helped optimize the user experience overall. 
+				</p>
+				
+				<a class="mbottom" href="http://www.pega.com/solutions/by-industry/financial-services" target="_blank">LAUNCH SITE</a>
+				
+			</div>
+			
+		</aside>                      
+	</div>

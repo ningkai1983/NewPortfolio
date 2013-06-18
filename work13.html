@@ -1,0 +1,52 @@
+	<script src="js/jquery-1.7.1.min.js" type="text/javascript"></script>
+	<script src="js/slides.min.jquery.js" type="text/javascript"></script>
+	
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$('.index_slides').slides({
+			generatePagination: false,
+			preload: true,
+			preloadImage: 'img/loading.gif',
+			effect: 'slide, fade',
+			crossfade: true,
+			slideSpeed: 350,
+			fadeSpeed: 550,
+			play: 6000,
+			paginationClass: 'custom-pagination'
+		});
+	});
+	</script>
+	<div class="slide_wrap">
+		<div class="close_btn" >
+			<a href="#"><img class="close_window" src="img/close_btn.png"  /></a>
+		</div>
+		<section class="grid col-three-quarters">
+			<div class="index_slides">
+				<div class="img_container">
+					<img class="work1" src="img/sap.png" alt="slide 1"/>
+					
+				</div>
+				
+			</div>
+		</section>
+		
+		
+		<aside class="grid col-one-quarter">
+			<div class="dis_content" >
+
+				<p class="projectTitle">SAP MARKET PREDICTOR (PITCH)
+
+				</p>
+				<p class="projectCat">ROLE:
+				</p>
+				<p class="pList"> User Interface Design
+				</p>
+				
+				
+				<p class="projectDetail">SAP’s Marketing Predictor is targeting the CMO, VP of marketing and head of marketing operations to learn how SAP can help to better manage and gain insights from customer data, deliver consistent high-quality customer experiences, and streamline marketing operations. Layout design of a web application and mobile app were create to illustrate the idea.
+				</p>
+				
+			</div>
+			
+		</aside>                      
+	</div>

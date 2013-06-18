@@ -1,0 +1,29 @@
+@media max-width 767px {
+.contact_form{width:auto}
+}
+@media only screen and max-width 767px {
+.contact_form{width:300px}
+}
+@media only screen and min-width 480px and max-width 767px {
+.contact_form{width:420px}
+}
+@media min-width 768px and max-width 979px {
+.contact_form{width:724px}
+}
+@media min-width 1200px {
+.contact_form{width:830px}
+}
+#contact_form label{display:block;margin-bottom:.6em;margin-top:1.1em;letter-spacing:.05em;color:#8e8c88;font-family:knockout2}
+#contact_form input[type=text],#contact_form input[type=email],#contact_form #message{width:100%}
+#contact_form input[type=text],#contact_form textarea{cursor:text}
+#contact_form input,#contact_form textarea{transition:border .25s ease 0}
+#contact_form input,#contact_form select,#contact_form textarea{-moz-box-sizing:border-box;border:1px solid #383636;color:#817F7D;background-color:#222121;width:60%;font-size:100%;vertical-align:baseline;margin:0;padding:.5em}
+#contact_form button,#contact_form input{line-height:normal}
+.myName{margin-top:10px}
+.button{border:1px solid #333;border-radius:5px 5px 5px 5px;font-family:knockout2;color:#fff;cursor:pointer;font-size:.9em;background-color:#514b44;text-decoration:none;letter-spacing:.07em;padding:.3em .6em .20em}
+.button:hover{color:#fff;background-color:#090909}
+.address{margin-top:-30px;letter-spacing:.07em}
+.messageTitle{font-style:italic;font-size:1.6em;letter-spacing:.05em}
+.download a{color:#e58910;font-size:.85em}
+.download a:hover{color:#08dcc6}
+#contact_form #message,.contact_info .download{margin-bottom:20px}
